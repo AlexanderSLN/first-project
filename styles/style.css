@@ -254,12 +254,7 @@ background-repeat: no-repeat;
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-top: 80px;
-  
-  
-
-  
-  
+  margin-top: 80px;  
 }
 
 .kaufman__triangle{
@@ -279,9 +274,7 @@ background-repeat: no-repeat;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  color: white;
-  
-    
+  color: white; 
 }
 .section-subtitle_theme_dark {
   margin: 0 auto;
@@ -403,7 +396,7 @@ margin-bottom: 16px;
 .footer__column_social_links {
 display: flex;
 flex-direction: column;
-align-it: space-between;
+align-items: space-between;
 margin-bottom: 16px;
 
 }
