@@ -31,14 +31,7 @@ height: 32px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-background-color: blue;
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  top: 64px;
-  right: 0px;
-}
+
 .header__title {
  padding:0;
  margin: 0 0 0 64px;
@@ -67,6 +60,7 @@ z-index: 2;
   margin-top: 50px;
 }
 .header__square-pic {
+  background-color: blue;
   position: absolute;
   top: 64px;
   right: 0px;
@@ -241,7 +235,7 @@ background-repeat: no-repeat;
 
 .kaufman {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-direction: column;
    align-items: center;
@@ -321,7 +315,6 @@ background-repeat: no-repeat;
   width: 90%;
    margin: 60px auto 40px;
    justify-content: space-between;
-
 }
 
 .footer__column_copyright {
@@ -333,6 +326,7 @@ background-repeat: no-repeat;
   width: 50%;
   height: 100%;
 }
+
 .footer__author {
   line-height: 25px;
   font-size: 18px;
@@ -340,6 +334,7 @@ background-repeat: no-repeat;
   margin: 18px 0;
   color:white
 }
+
 .logo_place_footer {
   width: 183px;
 height: 35px;
@@ -348,16 +343,16 @@ height: 35px;
 .footer__column_info {
   display: flex;
   flex-direction: column;
-
 }
+
 .footer__column-heading {
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   color:white;
-
 }
+
 .footer__column_info_links {
 display: flex;
 flex-direction: column;
@@ -371,11 +366,11 @@ margin-bottom: 16px;
   font-weight: normal;
   color:white;
 }
+
 .footer__column {
   display: flex;
   flex-direction: column;
 }
-
 
 .footer__column_social {
   line-height: 30px;
@@ -383,27 +378,24 @@ margin-bottom: 16px;
   font-weight: bold;
   color:white;
   margin-bottom: 20px;
-
 }
 
 .footer__social-icon {
-
-  margin-right: 10px;
+ margin-right: 10px;
  width: 16px;
  height: 16px;
-
 }
+
 .footer__column_social_links {
 display: flex;
 flex-direction: column;
 align-items: space-between;
 margin-bottom: 16px;
-
 }
 
 .footer__column-link {
   line-height: 30px;
-    font-size: 18px;
+  font-size: 18px;
   font-weight: normal;
   color:white;
 }
