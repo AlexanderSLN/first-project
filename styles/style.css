@@ -20,12 +20,14 @@
   flex-direction: column;
   overflow: hidden;
 }
+.logo {
+  width: 183px;
+}
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 183px;
   height: 32px;
 }
 
@@ -327,7 +329,6 @@ margin-bottom: 0;
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
@@ -343,6 +344,11 @@ margin-bottom: 0;
   font-size: 18px;
   font-weight: bold;
   color:#ffffff;
+}
+
+.footer_list {
+  padding: 0;
+  list-style: none;
 }
 
 .footer__column_info_links {
@@ -379,7 +385,6 @@ margin-bottom: 0;
 .footer__column_social_links {
   margin: 20px 0 16px;
   padding: 0;
-  list-style: none;
 }
 
 .footer__column-link {
